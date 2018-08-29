@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - AWS Key Management Service",
+	"description": "This is a repository of aws key management service APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/aws-key-management-service.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-29",
+	"url": "http://aws-key-management-service.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "AWS Key Management Service",
+			"x-api-slug": "aws-key-management-service",
+			"description": "AWS Key Management Service (KMS) is a managed service that makes it easy for you to create and control the encryption keys used to encrypt your data, and uses Hardware Security Modules (HSMs) to protect the security of your keys. AWS Key Management Service is integrated with several other AWS services to help you protect the data you store with these services. AWS Key Management Service is also integrated with AWS CloudTrail to provide you with logs of all key usage to help meet your regulatory and compliance needs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-key-management.jpg",
+			"humanURL": "https://aws.amazon.com/kms/",
+			"baseURL": ":///",
+			"tags": "AWS Key Management Service",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-key-management-service/master/_listings/aws-key-management-service/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "AWS Key Management Service",
+	"include": [
+		{
+			"name": "AWS Key Management Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-key-management-service/master/_listings/aws-key-management-service/apis.yaml"
+		}
+	]
+}
